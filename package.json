@@ -1,0 +1,36 @@
+{
+  "name": "linkedin-guardrail-mcp",
+  "version": "1.0.0",
+  "description": "Safe, human-paced, anti-ban LinkedIn MCP server for Claude Desktop and Antigravity",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "linkedin-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "login": "node dist/login.js"
+  },
+  "keywords": [
+    "mcp",
+    "linkedin",
+    "claude",
+    "antigravity",
+    "ai-agent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.50.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
