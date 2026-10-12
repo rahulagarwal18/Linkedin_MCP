@@ -89,7 +89,7 @@ Add this to your `claude_desktop_config.json` (`%APPDATA%\Claude\claude_desktop_
     "linkedin": {
       "command": "node",
       "args": [
-        "B:\\AI_Projects\\linkedin-mcp-agent\\dist\\index.js"
+        "/path/to/Linkedin_MCP/dist/index.js"
       ]
     }
   }
@@ -100,7 +100,7 @@ Add this to your `claude_desktop_config.json` (`%APPDATA%\Claude\claude_desktop_
 In Cursor settings under **Features → MCP Servers → Add New MCP Server**:
 - **Name:** `linkedin`
 - **Type:** `command`
-- **Command:** `node B:\AI_Projects\linkedin-mcp-agent\dist\index.js`
+- **Command:** `node /path/to/Linkedin_MCP/dist/index.js`
 
 ### 3. Google Antigravity
 Add to `~/.gemini/config/mcp_config.json`:
@@ -110,7 +110,7 @@ Add to `~/.gemini/config/mcp_config.json`:
     "linkedin": {
       "command": "node",
       "args": [
-        "B:\\AI_Projects\\linkedin-mcp-agent\\dist\\index.js"
+        "/path/to/Linkedin_MCP/dist/index.js"
       ]
     }
   }
